@@ -59,8 +59,8 @@
     background-color: transparent;
     padding: 10px 16px;
 }
-.navbar__sec2 button:hover{
-    background-color: lightgray;
+.navbar__sec2 button:hover, .find__desc button:hover{
+    background-color: rgb(255, 238, 238);
 }
 .btn-navbar__AI{
     border: none;
@@ -176,6 +176,10 @@
     color: #fff;
     border-radius: 30px;
 }
+.search__bar-btn .btn-askAI:hover{
+    color: #d3453b;
+    background-image: linear-gradient(to right, #ffdcd9, #eaeaea, #ffbfbf);
+}
 .search__bar2{
     display: flex;
     flex-shrink: 1;
@@ -231,6 +235,11 @@
     border: none;
     border: #fff 1px solid;
     border-radius: 20px;
+}
+.btn-search:hover{
+    background-color: #fff;
+    color: #d3453b;
+    border: #d3453b 1px solid;
 }
 
 /*Find*/
@@ -405,8 +414,7 @@
 }
 .interest__image-list {
     position: relative;
-    width: 23%;
-    
+    width: 24%;
 }
 .interest__image-list img{
     width: 100%;
@@ -793,7 +801,7 @@
     padding: 16px;
 }
 .interest__image-list h1{
-    font-size: 16px;
+    font-size: 24px;
 }
 }
 
@@ -869,6 +877,9 @@
     }
     .interest__image-list {
     width: 48%;
+}
+.interest__image-list h1{
+    font-size: 20px;
 }
     .interest__image-list img{
         height: 150px;
