@@ -16,6 +16,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     font-family: 'Urbanist', sans-serif;
     padding: 20px 12% 20px 12%; 
    
@@ -25,6 +26,9 @@
     z-index: 100;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.navbar__ham{
+    display: none;
 }
 .navbar__logo{
     display: flex;
@@ -104,6 +108,9 @@
     color: #323232;
     margin-bottom: 20px;
 }
+.break{
+        display: none;
+    }
 .search__list{
     display: flex;
     justify-content: center;
@@ -683,16 +690,24 @@
 
 /*Responsive*/
 @media screen and (max-width: 1000px) {
+    .navbar__ham{
+    display: block;
+}
+    .navbar__sec2{
+        display: none;
+    }
     .background_container {
     background-image: url(./Images/hero-coast.jpg);
     height: 75vh;
 }
  .search{
-        margin: 0;
+        margin: auto;
         display: flex;
         flex-direction: column;
-        align-items: center;
-
+        width: fit-content;
+    
+    padding: 20px;
+    padding-top: 60px;
     }
     .search__bar2{
         display: flex;
@@ -784,11 +799,27 @@
 
 
 @media screen and (max-width: 600px) {
+    .navbar{
+        padding: 20px;
+    }
+    .background_container{
+        margin-top: 0px;
+    }
     .search{
         margin: 0;
+        align-content: center;
+    flex-wrap: wrap;
+        gap: 8px;
+    }
+    .break{
+        display: block;
     }
     .search__title h1{
         font-size: 44px;
+        margin-bottom: 0px;
+        
+        padding-bottom: 0px;
+        padding-top: 0px;
     }
     .search__bar{
         display: flex;
