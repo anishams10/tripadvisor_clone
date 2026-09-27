@@ -715,7 +715,7 @@
         width: fit-content;
     
     padding: 20px;
-    padding-top: 60px;
+    padding-top: 12%;
     }
     .search__bar2{
         display: flex;
@@ -825,7 +825,6 @@
     .search__title h1{
         font-size: 44px;
         margin-bottom: 0px;
-        
         padding-bottom: 0px;
         padding-top: 0px;
     }
