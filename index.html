@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Advisor</title>
+
+    <!--MY stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Urbanist:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!--Navbar-->
+    <div class="navbar">
+        <div class="navbar__logo">
+            <img src="./Images/Navbar/logo roamly.png" alt="" width="36px" height="36px">
+            <h1>roamly</h1>
+        </div>
+
+        <div class="navbar__sec2">
+            <button class="btn-navbar__AI">Plan with AI</button>
+            <button>Discover</button>
+            <button>Review</button>
+            <button>More</button>
+            <button class="btn-save"><img src="./Images/Navbar/listicon.jpg" alt="" width="24px" height="24px"></button>
+            <button class="btn-globe"><img src="./Images/Navbar/internet.png" alt="" width="24px" height="24px">
+                <p>INR</p>
+            </button>
+            <button class="btn-signin">Sign in</button>
+        </div>
+    </div>
+
+    <div class="background_container">
+
+        <!--Search-->
+        <div class="search">
+            <div class="search__title">
+                <h1>Where to Next?</h1>
+            </div>
+            <div class="search__list">
+                <div class="search__item1">
+                    <img src="./Images/Search/house.png" alt="" width="24px" height="24px">
+                    <p>Search All</p>
+                </div>
+                <div class="search__item2">
+                    <img src="./Images/Search/camera.png" alt="" width="24px" height="24px">
+                    <p>Things to do</p>
+                </div>
+                <div class="search__item3">
+                    <img src="./Images/Search/hotel-bed.png" alt="" width="24px" height="24px">
+                    <p>Hotels</p>
+                </div>
+                <div class="search__item4">
+                    <img src="./Images/Search/cutlery.png" alt="" width="24px" height="24px">
+                    <p>Restaurants</p>
+                </div>
+            </div>
+            <div class="search__bar">
+                <div class="search__input">
+                    <img src="./Images/Search/search.png" alt="" width="20px" height="20px">
+                    <input type="text" placeholder="Place to go, things to do, hotels...">
+                </div>
+                <div class="search__bar-btn">
+                    <button class="btn-askAI">Ask AI</button>
+        
+                </div>
+            </div>
+            <div class="search__bar2">
+                <div class="bar2__input">
+                    <label for="">From</label>
+                    <input type="text" placeholder="Country, city, or Airport">
+                </div>
+                <div class="bar2__input">
+                    <label for="">To</label>
+                    <input type="text" placeholder="Country, city, or Airport">
+                </div>
+                <div class="bar2__input">
+                    <label for="">Depart</label>
+                    <input type="date" placeholder="Add Date">
+                </div>
+                <div class="bar2__input">
+                    <label for="">Arrival</label>
+                    <input type="date" placeholder="Add Date">
+                </div>
+        
+                
+                <div class="bar2__input" id="travel">
+                    <label for="">Travelers</label>
+                    <input type="text" placeholder="1 Adult">
+                </div>
+                <div class="bar2__input">
+                    <button class="btn-search">Search</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--Find things-->
+    <div class="find">
+        <div class="find__image">
+            <div id="f1">
+                <p class="label">John C</p>
+                <img src="./Images/Find/find1.jpg" alt="">
+            </div>
+            <div id="f2">
+                <p class="label">Eddie J</p>
+                <img src="./Images/Find/find2.jpg" alt="">
+            </div>
+            <div id="f3">
+                <p class="label">Teapot_twins</p>
+                <img src="./Images/Find/find3.jpg" alt="">
+            </div>
+            <div id="f4">
+                <p class="label">Anisha</p>
+                <img src="./Images/Find/find4.jpg" alt="">
+            </div>
+        </div>
+        <div class="find__desc">
+            <h1>Find things to do for everything you're into</h1>
+            <p>Browse 400,000+ experiences and book with us.</p>
+            <button>Book now</button>
+        </div>
+    </div>
+
+    <!--Interest-->
+    <div class="interest">
+        <p class="subtitle">TRENDING NOW</p>
+        <h1 class="interest__title">India is calling</h1>
+
+        <div class="interest__images">
+            <div class="interest__image-list">
+                <img src="./Images/Interest/1outdoor.jpg" alt="">
+                <h1>Outdoor</h1>
+            </div>
+            <div class="interest__image-list">
+                <img src="./Images/Interest/2food.jpg" alt="">
+                <h1>Food</h1>
+            </div>
+            <div class="interest__image-list">
+                <img src="./Images/Interest/3culture.jpg" alt="">
+                <h1>Culture</h1>
+            </div>
+            <div class="interest__image-list">
+                <img src="./Images/Interest/4water.jpg" alt="">
+                <h1>Water</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--Featured Destination-->
+    <div class="destination">
+        <p class="subtitle">FEATURED DESTINATION</p>
+        <h1 class="interest__title">Trending with travellers this month</h1>
+
+        <div class="dest__container">
+            <div class="dest__image">
+                <img src="./Images/Destination/dest-kyoto.jpg" alt="">
+                <div class="dest__img__desc">
+                    <p> JAPAN</p>
+                    <h1>Kyoto</h1>
+                    <p>3,180 stays · from ₹6400/nights</p>
+                </div>
+            </div>
+            <div class="dest__image">
+                <img src="./Images/Destination/dest-lisbon.jpg" alt="">
+                <div class="dest__img__desc">
+                    <p>PORTUGAL</p>
+                    <h1>Lisbon</h1>
+                    <p>4,720 stays · from ₹5,100/night</p>
+                </div>
+            </div>
+            <div class="dest__image">
+                <img src="./Images/Destination/dest-bali.jpg" alt="">
+                <div class="dest__img__desc">
+                    <p>INDONESIA</p>
+                    <h1>Bali</h1>
+                    <p>9,340 stays · from ₹2,900/night</p>
+                </div>
+            </div>
+            <div class="dest__image">
+                <img src="./Images/Destination/dest-capetown.jpg" alt="">
+                <div class="dest__img__desc">
+                    <p>SOUTH AFRICA</p>
+                    <h1>Cape Town</h1>
+                    <p>9,340 stays · from ₹2,900/night</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Popular Hotels-->
+    <div class="hotels">
+        <p class="subtitle">POPULAR HOTELS</p>
+        <h1 class="interest__title">Stays travellers come back to</h1>
+
+        <div class="hotel__container">
+            <div class="hotel__list">
+                <div class="hotel__image">
+                    <img src="./Images/Hotels/1hotel.jpg" alt="" class="hotel_pic">
+                    <p>Guest Favourite</p>
+                    <img src="./Images/Hotels/heart (1).png" alt="" class="hotel__icon" width="14px" height="14px">
+                </div>
+                <div class="hotel__desc">
+                    <div class="star">
+                        <h2>Pine Ridge Cabin</h2>
+                        <div class="rating">
+                            <img src="./Images/Hotels/star.png" alt="" width="14px" height="14px">
+                            <h3>4.5</h3>
+                        </div>
+                    </div>
+                    <p>Manali, Himachal Pradesh</p>
+                    <p><span>₹7,900</span> night · 218 reviews</p>
+                </div>
+            </div>
+            <div class="hotel__list">
+                <div class="hotel__image">
+                    <img src="./Images/Hotels/2hotel.jpg" alt="" class="hotel_pic">
+                    <p>Rare find</p>
+                    <img src="./Images/Hotels/heart (1).png" alt="" class="hotel__icon" width="14px" height="14px">
+                </div>
+                <div class="hotel__desc">
+                    <div class="star">
+                        <h2>Machiya Townhouse</h2>
+                        <div class="rating">
+                            <img src="./Images/Hotels/star.png" alt="" width="14px" height="14px">
+                            <h3>4.7</h3>
+                        </div>
+                    </div>
+                    <p>Gion, Kyoto</p>
+                    <p><span>₹11,900</span> night · 278 reviews</p>
+                </div>
+            </div>
+            <div class="hotel__list">
+                <div class="hotel__image">
+                    <img src="./Images/Hotels/3hotel.jpg" alt="" class="hotel_pic">
+                    <p>Free cancellation</p>
+                    <img src="./Images/Hotels/heart (1).png" alt="" class="hotel__icon" width="14px" height="14px">
+                </div>
+                <div class="hotel__desc">
+                    <div class="star">
+                        <h2>Alfama Tram View</h2>
+                        <div class="rating">
+                            <img src="./Images/Hotels/star.png" alt="" width="14px" height="14px">
+                            <h3>4.5</h3>
+                        </div>
+                    </div>
+                    <p>Lisbon, Portugal</p>
+                    <p><span>₹4,650</span> night · 890 reviews</p>
+                </div>
+            </div>
+            <div class="hotel__list">
+                <div class="hotel__image">
+                    <img src="./Images/Hotels/4hotel.jpg" alt="" class="hotel_pic">
+                    <p>Pool included</p>
+                    <img src="./Images/Hotels/heart (1).png" alt="" class="hotel__icon" width="14px" height="14px">
+                </div>
+                <div class="hotel__desc">
+                    <div class="star">
+                        <h2>Rice Terrace Villa</h2>
+                        <div class="rating">
+                            <img src="./Images/Hotels/star.png" alt="" width="14px" height="14px">
+                            <h3>4.5</h3>
+                        </div>
+                    </div>
+                    <p>Ubud, Bali</p>
+                    <p><span>₹12,900</span> night · 218 reviews</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--tours-->
+    <div class="tours">
+        <p class="subtitle">TOURS & EXPERIENCES HOSTED BY LOCALS</p>
+        <h1 class="interest__title">Book something you'll talk about</h1>
+
+        <div class="tours__container">
+            <div class="tours__list">
+                <img src="./Images/tour/1tour.jpg" alt="">
+                <div class="tours__desc">
+                    <p>HANOI</p>
+                    <h2>Sunrise volcano hike and hot spring soak</h2>
+                    <p>from <b>₹2,150</b> per person</p>
+                </div>
+            </div>
+            <div class="tours__list">
+                <img src="./Images/tour/2tour.jpg" alt="">
+                <div class="tours__desc">
+                    <p>HANOI</p>
+                    <h2>Sunrise volcano hike and hot spring soak</h2>
+                    <p>from <b>₹2,150</b> per person</p>
+                </div>
+            </div>
+            <div class="tours__list">
+                <img src="./Images/tour/3tour.jpg" alt="">
+                <div class="tours__desc">
+                    <p>HANOI</p>
+                    <h2>Sunrise volcano hike and hot spring soak</h2>
+                    <p>from <b>₹2,150</b> per person</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Pick-->
+    <div class="pick">
+        <div class="pick__image">
+            <img src="./Images/pick.jpg" alt="">
+        </div>
+        <div class="pick__desc">
+            <p class="pick__label">The Roamly Edit</p>
+            <h1>Go where the good stories are.</h1>
+            <p>Varkala mornings, cliffside cafés and a coast that asks you to stay a little longer.</p>
+            <button>Read the 3-day guide</button>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer__s1">
+            <div class="navbar__logo">
+                <img src="./Images/Navbar/logo roamly.png" alt="" width="36px" height="36px">
+                <h1 style="color: #fff;">roamly</h1>
+            </div>
+            <div class="footer_links">
+                <div class="footer__s1__one">
+                    <p>Get the app</p>
+                    <p>About Us</p>
+                    <p>Contact Us</p>
+                </div>
+                <div class="footer__s1__two">
+                    <p>Blog</p>
+                    <p>Help and Support</p>
+                    <p>Investors</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__s2">
+            <p>Privacy · Terms · Cookies</p>
+            <p>&copy; roamly,2026</p>
+        </div>
+    </div>
+</body>
+
+</html>
